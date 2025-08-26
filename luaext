@@ -6645,7 +6645,7 @@ function Fatality:CreateNotifier(): Notifier
 
 			HeaderText.Name = Fatality:RandomString()
 			HeaderText.Parent = notify_block
-			HeaderText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			HeaderText.BackgroundColor3 = Color3.fromRGB(0, 0, 128)
 			HeaderText.BackgroundTransparency = 1.000
 			HeaderText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			HeaderText.BorderSizePixel = 0
